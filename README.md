@@ -53,4 +53,4 @@ $$
 # １次元的表現
 ![demo](https://github.com/dynepanch/MCL-for-Probabilistic-Robotics-homework/blob/main/gif/line.gif)
 
-二次元平面のy軸の範囲を縮め、ランドマークを一次元に配置した。
+二次元平面のy軸の範囲を縮め、ランドマークを一直線上に配置することで、数直線上のロボットのモデルを表現する。
