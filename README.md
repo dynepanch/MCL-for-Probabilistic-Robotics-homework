@@ -2,10 +2,12 @@
 
 # 左から右に行くモデル
 ![demo](https://github.com/dynepanch/MCL-for-Probabilistic-Robotics-homework/blob/main/gif/left_to_right.gif)
+$$
 \begin{pmatrix}
 a & b\\
 c & d
 \end{pmatrix}
+$$
 # 右に行った後に旋回して左に戻るモデル
 ![demo](https://github.com/dynepanch/MCL-for-Probabilistic-Robotics-homework/blob/main/gif/left_to_right_to_left.gif)
 
