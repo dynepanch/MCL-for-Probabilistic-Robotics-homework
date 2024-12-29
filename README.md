@@ -5,14 +5,12 @@
 ## 
 初期姿勢
 $$
-x0=
+u=
 \begin{pmatrix}
--3.5\\
-0 \\
+0.5\\
 0
 \end{pmatrix}
 $$
-
 $$
 u=
 \begin{pmatrix}
