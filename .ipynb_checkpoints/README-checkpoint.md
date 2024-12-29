@@ -29,12 +29,28 @@ $$
 パーティクルで信念分布を近似する。
 パーティクルの位置と角度に指数分布に応じて、
 ガウス分布に基づいた雑音を与え、また制御入力にバイアスを加えることにより誤差とする。
+センサの観測にも同じく雑音を与えている。
 配置された３つの点ランドマークは距離２、角度&plusmn;60度の地点で観測され、パーティクルの尤度に影響をあたえる。
 尤度は二次元のガウス分布によって定義され、複数のランドマークに対して導出された値を平均、正規化することで重みに変換する。
 重みを基に系統サンプリングでパーティクルの更新を行うことにより信念分布の近似とする。
 
+
 # 右に行った後に旋回して左に戻るモデル
 ![demo](https://github.com/dynepanch/MCL-for-Probabilistic-Robotics-homework/blob/main/gif/left_to_right_to_left.gif)
 
+
+上記のコードをもとに、基準ロボットがx=3に達した時に角度が180度達するまで
+
+$$
+u=
+\begin{pmatrix}
+0\\
+0.5
+\end{pmatrix}
+$$
+
+とし、方向転換を行い左右に移動する。
 # １次元的表現
 ![demo](https://github.com/dynepanch/MCL-for-Probabilistic-Robotics-homework/blob/main/gif/line.gif)
+
+二次元平面のy軸の範囲を縮め、ランドマークを一次元に配置した。
