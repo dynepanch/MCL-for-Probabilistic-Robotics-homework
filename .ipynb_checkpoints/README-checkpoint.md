@@ -4,6 +4,7 @@
 ![demo](https://github.com/dynepanch/MCL-for-Probabilistic-Robotics-homework/blob/main/gif/left_to_right.gif)
 ## 
 初期姿勢
+
 $$
 u=
 \begin{pmatrix}
@@ -11,6 +12,8 @@ u=
 0
 \end{pmatrix}
 $$
+
+
 $$
 u=
 \begin{pmatrix}
