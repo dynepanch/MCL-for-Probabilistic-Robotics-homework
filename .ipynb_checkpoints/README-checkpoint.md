@@ -7,9 +7,10 @@
 初期姿勢
 
 $$
-u=
+x0=
 \begin{pmatrix}
-0.5\\
+-3.5\\
+0\\
 0
 \end{pmatrix}
 $$
