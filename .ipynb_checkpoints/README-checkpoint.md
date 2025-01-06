@@ -54,7 +54,7 @@ $$
 ![demo](https://github.com/dynepanch/MCL-for-Probabilistic-Robotics-homework/blob/main/gif/line.gif)
 
 二次元平面のy軸の範囲を縮め、ランドマークを一直線上に配置することで、数直線上のロボットのモデルを表現する。
-角度方向の誤差をなくすことにより、動きを一次元に限定し、一次元の動きをするロボットのモデルとする。
+角度方向の誤差およびy方向の誤差をなくすことにより、動きを一次元に限定し、一次元の動きをするロボットのモデルとする。
 
 # 動作環境
 Jupyter Notebook
