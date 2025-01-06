@@ -65,7 +65,7 @@ https://dynepanch.github.io/MCL-for-Probabilistic-Robotics-homework/
 # LICENSE
 このソフトウェアパッケージは3条項BSDライセンスの元、再配布及び使用が許可されています。
 
-連絡先:s21C1016HB@s.chibakoudai.jp
+連絡先:rightman20020920@yahoo.co,jp
 
 LICENSE:https://github.com/dynepanch/MCL-for-Probabilistic-Robotics-homework/blob/main/LICENSE
 
